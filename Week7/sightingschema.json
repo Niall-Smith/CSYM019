@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Sighting report",
+    "description": "Reports of rare animal sighting in Exland",
+        "type": "object",
+        "properties" : 
+        {
+            "sightings" : 
+            {
+                "type": "array",
+                "items" : 
+                {
+                    "type" : "object",
+                    "properties": 
+                    {
+                        "id": {"type": "integer", "minimum": 0},
+                        "animal": {"type": "string", "enum": ["Beaver", "Hare", "Pine Martin", "Otter", "Snowy Owl"] },
+                        "number": {"type": "integer", "minimum": 1},
+                        "location": {"type": "string"},
+                        "date": {"type": "string"},
+                        "time": {"type": "string"},
+                        "observations": {"type": "string"},
+                        "observer": {"type": "object", "properties": 
+                            {
+                                "name": {"type": "string"},
+                                "email":{"type": "string"}
+                            }
+                        }
+                    } 
+                }
+            } 
+        }
+}
