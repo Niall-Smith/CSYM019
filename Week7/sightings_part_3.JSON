@@ -1,0 +1,64 @@
+{
+    "sightings": 
+    [
+        {
+            "id": 1,
+            "animal": "Pine Martin",
+            "number": 4,
+            "location": "Marshall Woods, Reneham",
+            "date": "2015-09-24",
+            "time": "09:30:00",
+            "observations": "Four pine martins. 1 adult. 3 juveniles. In wooded area. Adult appeared to be mother. Foraging for food",
+            "observer": 
+            {
+                "name": "Gregory Dimitradis",
+                "email": "gdim@yahoo.com"
+            }
+        },
+
+        {
+            "id": 2,
+            "animal": "Hare",
+            "number": 3,
+            "location": "Marshall Woods, Reneham",
+            "date": "2015-09-27",
+            "time": "12:45:00",
+            "observations": "Three Hares. 2 adults, male and female. 1 juvenile. Coming out of a hole, possible nest. Adults appeared to be parents. Foraging for food",
+            "observer": 
+            {
+                "name": "John Smith",
+                "email": "jsmith123@yahoo.com"
+            }
+        },
+
+        {
+            "id": 3,
+            "animal": "Snowy Owl",
+            "number": 1,
+            "location": "Marshall Woods, Reneham",
+            "date": "2015-09-27",
+            "time": "22:00:00",
+            "observations": "1 adult snowy owl. Spotted in the trees. Appeared to be returning from a hunt. Subject had a mouse in its mouth.",
+            "observer": 
+            {
+                "name": "Allison Chase",
+                "email": "achase@yahoo.com"
+            }
+        },
+
+        {
+            "id": 4,
+            "animal": "Beaver",
+            "number": 5,
+            "location": "Marshall Woods, Reneham",
+            "date": "2015-10-01",
+            "time": "05:00:00",
+            "observations": "5 adults. Carrying wood to the a river to build a dam",
+            "observer": 
+            {
+                "name": "Lisa Carter",
+                "email": "lcarter@yahoo.com"
+            }
+        }
+    ]
+}
